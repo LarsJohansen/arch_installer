@@ -53,6 +53,8 @@ zathura,zathura-pfd-mupdf,PDF & epub support for zathura
 devtools,autopep8,autopep fixer
 devtools,flake8,Python Linter
 devtools,python-pynvim,Vim python extension
+devtools,pyenv,Python Version Manager
+devtools,pyenv-virtualenv,Virtual Env addon for pyenv
 music,spotify-tui,Spotify in the Terminal
 music,spotifyd,Spotify daemon (needed by spotify-tui)
 emacs,emacs,Text Editor (with org-mode!)
