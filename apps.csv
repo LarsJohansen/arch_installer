@@ -34,7 +34,6 @@ i3,dmenu,Dynamic menu for X
 i3,rofi,App Launcher
 i3,feh,X11 image viewer
 i3,arc-gtk-theme,Desktop themes
-i3,ttf-dejavu,Font needed by vivaldi and others
 zsh,zsh,Unix shell (Z-Shell)
 zsh,zsh-completions,Additional completions for Zsh
 zsh,zsh-syntax-highlighting,Syntax highlighting for ZSH
@@ -47,8 +46,10 @@ js,nodejs,Nodejs (for coc.vim)
 js,yarn,Dependency manager (for coc.vim)
 urxvt,rxvt-unicode,Terminal Urxvt
 urxvt,urxvt-tabbedex-mina86-git,Improved tabs for Urxvt (AUR)
-browser,vivaldi,Browser Vivaldi
-zathura,zathura-pfd-mupdf,PDF Reader
+vivaldi,ttf-dejavu,Font needed by vivaldi and others
+vivaldi,vivaldi,Browser Vivaldi
+zathura,zathura, Document Viewer
+zathura,zathura-pfd-mupdf,PDF & epub support for zathura
 devtools,autopep8,autopep fixer
 devtools,flake8,Python Linter
 devtools,python-pynvim,Vim python extension
