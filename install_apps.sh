@@ -29,7 +29,7 @@ apps=("essential" "Essentials" on
       "devtools" "Misc. devtools (Python)" off
       "social" "Slack and Discord" off
       "music" "Spotify in the Terminal" off
-      "emacs" "Text editor with the awesom org-mode")
+      "emacs" "Text editor with the awesom org-mode", off)
 
 dialog --checklist \
 "You can now choose what group of application you want to install. \n\n\
