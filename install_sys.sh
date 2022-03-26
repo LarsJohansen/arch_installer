@@ -12,10 +12,16 @@ dialog --defaultno --title "Are you sure?" --yesno \
     Proceed with caution and Just Say NO if you're not sure what you're doing! \n\n\
     Do you really want to continue?" 15 60 || exit
 
+dialog --no-cancel --inputbox "Enter a name for your computer." \
+    10 60 2> comp
+
+comp=$(cat comp) && rm comp
+
 # Verify boot (Uefi or BIOS)
 uefi=0
 ls /sys/firmware/efi/efivars 2> /dev/null && uefi=1
 
+# Choose hard drive for installation
 devices_list=($(lsblk -d | awk '{print "/dev/" $1 " " $4 " on"}' \
     | grep -E 'sd|hd|vd|nvme|mmcblk'))
 
